@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0rem 5%;
+    background-color:#FFCD9E;
+}
+
+header {
+    height: 77vh;
+    width: 100%;
+    background-color:#FFCD9E;
+    border: 2px solid #FFCD9E;
+}
+
+
+footer {
+    background-color: black;
+    height: 20vh;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30rem;
+    padding: 1rem 9%;
+    border: 2px solid black;
+}
+
+.hleft {
+    padding: 2rem 3%;
+    width: 50rem;
+}
+
+.hleft h2{
+    font-size: 3rem;
+}
+
+header .container .hleft input{
+    margin-top: 1.5rem;
+    border: 2px solid black;
+    padding: 0.5rem 5%;
+    border-radius: 5px;
+}
+header .container .hright img:hover{
+    border: 2px solid blue;
+}
+
+header .container .hleft button{
+    padding: 0.5rem 5%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+header .container .hleft button:hover{
+    border: 2px solid blue;
+    cursor:context-menu;
+}
+header .container .hleft input:hover{
+    border: 2px solid blue;
+    cursor:context-menu;
+}
+header .container .hleft strong:hover{
+    
+    border-bottom: 2px solid #0000ff;
+    cursor:context-menu;
+}
+header .container .hleft p:hover{
+    text-decoration: underline 1px solid blue ;
+    
+    cursor:context-menu;
+}
+header .container .hleft h2:hover{
+    
+    text-decoration:underline #0000ff;
+    cursor:context-menu;
+}
+header .container .hleft input:hover{
+    
+    text-decoration:underline #0000ff;
+    cursor:context-menu;
+    
+}
+header .container .hleft span:hover{
+    
+    text-decoration:underline #0000ff;
+    cursor:context-menu;
+}
+footer .fleft ul:hover{
+    text-decoration:underline solid 1.5px #0000ff;
+    cursor:context-menu;
+}
+footer .fright ul:hover{
+    text-decoration:underline solid 1.5px #0000ff;
+    cursor:context-menu;
+}
+footer .fleft img:hover{
+    border: 2px solid blue;
+    cursor:context-menu;
+}
+
+header .container .hleft span{
+    color: rgb(226, 231, 234);
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+.hleft p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01rem;
+}
+
+.hright img{
+    height: 64vh;
+    width: 29vw;
+    border: 1px solid #FFCD9E;
+    margin-top: 5.8rem;
+    color: #FFCD9E;
+}
+
+.fleft {
+    height: 20vh;
+    width: 35vh;
+    margin-left: 30px;
+    color: white;
+    float: left;
+    line-height: 0.5rem;
+}
+.fright {
+    height: 20vh;
+    width: 30vh;
+    margin-left: 10vh;
+    float: right;
+    color: white;
+    line-height: 0.5rem;
+}
+.fright img:hover{
+    border: 2px solid blue;
+    cursor:context-menu;
+}
+footer:hover{
+    border: 3px solid blue;
+}
+header:hover{
+    border: 3px solid blue;
+}
